@@ -1,4 +1,4 @@
-1.使用setTimeout替代setInterval
+1.使用setTimeout替代setInterval，setInterval是间隔固定时间开始执行函数，setTimeout是执行函数结束后间隔固定时间再开始下一次执行函数
 ```
 /** instead of:
 let timerId = setInterval(() => alert('tick'), 2000);
