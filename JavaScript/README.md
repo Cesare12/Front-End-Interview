@@ -21,3 +21,4 @@ const setInter = function (func, delay) {
 
 setInter(() => { console.log(1) }, 1000)
 ```
+2.防抖，节流
