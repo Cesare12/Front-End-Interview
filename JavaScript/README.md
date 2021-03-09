@@ -31,7 +31,7 @@ function parse(url) {
     // 一、夹杂在 ? 与 # 之前的字符就是 qs，使用 /\?([^/?#:]+)#?/ 正则来抽取
     // 使用正则从 URL 中解析出 querystring
     // 二、通过 Optional Chain 来避免空值错误
-    const queryString = url.match(/\?([^/?#:]+)#?/) ?.[1]
+    const queryString = url.match(/\?([^/?#:]+)#?/)[1]
   
     if (!queryString) { return {} }
 
