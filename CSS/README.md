@@ -1,5 +1,8 @@
 1. Position
-
+static：静态定位，默认，正常文档流
+relative：相对原来的坑移动top, bottom, left, 和 right 
+absolute：脱离正常文档布局流，相对上一个relative移动。例如，弹出信息框和控制菜单；翻转面板；可以在页面上的任何地方拖放的UI功能
+fixed：固定定位
 
 2.div铺满屏幕，要先设置html,body高宽
 
