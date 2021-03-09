@@ -2,6 +2,8 @@
 
 
 2.div铺满屏幕，要先设置html,body高宽
+
+```
   <style>
         *{
             margin: 0;
@@ -17,6 +19,7 @@
             background: yellow;
         }
   </style>
+```
   
 3. 一行三列
 ```
