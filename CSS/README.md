@@ -20,6 +20,11 @@
   
 3. 一行三列
 
+.box {
+            display: flex;
+            justify-content: space-between;
+          }
+
 4. 重排重绘
 
 5. 垂直水平居中
