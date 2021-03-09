@@ -1,3 +1,4 @@
+
 1. Position
 static：静态定位，默认，正常文档流
 relative：相对原来的坑移动top, bottom, left, 和 right 
