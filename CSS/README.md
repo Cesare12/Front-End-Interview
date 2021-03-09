@@ -19,14 +19,34 @@
   </style>
   
 3. 一行三列
-
+```
 .box {
             display: flex;
             justify-content: space-between;
           }
+          ```
+          ```
 .box {
   column-count: 3;
 }
+```
+```
+.box {
+  display: grid;
+}
+.one{
+  grid-row:1;
+  grid-column:1;
+}
+.two{
+  grid-row:1;
+  grid-column:2;
+}
+.three{
+  grid-row:1;
+  grid-column:3;
+}
+```
 
 4. 重排重绘
 
