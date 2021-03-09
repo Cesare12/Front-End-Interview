@@ -24,6 +24,9 @@
             display: flex;
             justify-content: space-between;
           }
+.box {
+  column-count: 3;
+}
 
 4. 重排重绘
 
