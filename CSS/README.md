@@ -21,11 +21,11 @@
 3. 一行三列
 ```
 .box {
-            display: flex;
-            justify-content: space-between;
-          }
-          ```
-          ```
+  display: flex;
+  justify-content: space-between;
+}
+```
+```
 .box {
   column-count: 3;
 }
