@@ -23,6 +23,32 @@ setInter(() => { console.log(1) }, 1000)
 ```
 2.防抖，节流
 
+防抖：一定时间内不再执行
+节流：先执行，一定时间内不再执行
+```
+function debounce (f, wait) {
+  let timer
+  return (...args) => {
+    clearTimeout(timer)
+    timer = setTimeout(() => {
+      f(...args)
+    }, wait)
+  }
+}
+```
+```
+function throttle (f, wait) {
+  let timer
+  return (...args) => {
+    if (timer) { return }
+    timer = setTimeout(() => {
+      f(...args)
+      timer = null
+    }, wait)
+  }
+}
+```
+
 3.解析url
 
 ```
