@@ -24,7 +24,7 @@ setInter(() => { console.log(1) }, 1000)
 2.防抖，节流
 
 防抖：一定时间内不再执行，只触发最后一次
-节流：先执行，一定时间内不再执行
+节流：一次先执行，一定时间内不再执行第二次
 ```
 function debounce (f, wait) {
   let timer
