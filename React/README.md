@@ -3,7 +3,7 @@
 ##### 1.1 挂载
 constructor：构造函数，用于初始化。
 
-getDerivedStateFromProps：
+getDerivedStateFromProps：触发：1.props传入；2.setState变化；3.forceUpdate强制更新
 
 #### 3. virtual DOM 更新规则
 #### 4. React Hook
