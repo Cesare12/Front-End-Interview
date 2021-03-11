@@ -21,6 +21,9 @@ getSnapshotBeforeUpdate(prevProps, prevState)：DOM更新前调用，返回值�
 
 componentDidUpdate(prevProps, prevState, snapshot)：使用setState会死循环，所以要比较一下this.props和prevProps。
 
+##### 1.3 卸载
+componentWillUnmount：取消定时器
+
 #### 3. virtual DOM 更新规则
 #### 4. React Hook
 #### 5. Component 和 Element：
