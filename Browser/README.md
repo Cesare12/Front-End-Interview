@@ -68,4 +68,45 @@ timeout
 
 4.状态码
 
+5.事件委托
+利用冒泡触发父级ul
+```
+<ul id="test">
+
+  <li>1</li>
+
+  <li>2</li>
+
+  <li>3</li>
+
+  <li>4</li>
+
+  <li>5</li>
+
+  <li>10000</li>
+
+</ul>
+
+<script>
+
+  function getEventTarget(e) {
+
+      e = e || window.event;
+
+      return e.target || e.srcElement; 
+
+  }
+
+  var ul = document.getElementById('test');
+
+  ul.onclick = function(event) {
+
+      var target = getEventTarget(event);
+
+      alert(target.innerHTML);
+
+  };
+
+</script>
+```
 
