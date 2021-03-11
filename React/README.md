@@ -26,6 +26,8 @@ componentWillUnmount：取消定时器
 
 ##### 1.4 函数组件
 如何情况都会渲染，没有生命周期，使用React.memo优化方法是复用最近一次渲染结果。
+##### 1.5错误边界
+错误边界是一种 React 组件，class ErrorBoundary extends React.Component，React渲染出错时，渲染备用组件。
 
 #### 3. virtual DOM 更新规则
 #### 4. React Hook
