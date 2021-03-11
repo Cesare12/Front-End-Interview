@@ -79,3 +79,4 @@ function parse(url) {
     return queryObj
 }
 ```
+4. Promise
