@@ -80,3 +80,7 @@ function parse(url) {
 }
 ```
 4. Promise
+
+5. Symbol
+
+创建一个唯一的值
