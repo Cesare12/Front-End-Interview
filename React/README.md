@@ -24,6 +24,9 @@ componentDidUpdate(prevProps, prevState, snapshot)：使用setState会死循环�
 ##### 1.3 卸载
 componentWillUnmount：取消定时器
 
+##### 1.4 函数组件
+如何情况都会渲染，没有生命周期，使用React.memo优化方法是复用最近一次渲染结果。
+
 #### 3. virtual DOM 更新规则
 #### 4. React Hook
 #### 5. Component 和 Element：
