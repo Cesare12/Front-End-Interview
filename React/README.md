@@ -1,8 +1,10 @@
 #### 1. React生命周期
 
-##### 1.1挂载
+##### 1.1 挂载
+constructor：构造函数，用于初始化。
 
-constructor：
+getDerivedStateFromProps：
+
 #### 3. virtual DOM 更新规则
 #### 4. React Hook
 #### 5. Component 和 Element：
