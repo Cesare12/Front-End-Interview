@@ -29,7 +29,7 @@ componentWillUnmount：取消定时器
 ##### 1.5错误边界
 错误边界是一种 React 组件，class ErrorBoundary extends React.Component，React渲染出错时，渲染备用组件。
 #### 2. setState
-React源码通过isBatchingUpdates 判断，true存进 state 队列，false 直接更新。
+React源码通过isBatchingUpdates 判断，true存进 state 队列，false 直接更新。存进队列也是执行后存在，但是输出不出来
 
 1.保持内部一致性。state 和 props
 
