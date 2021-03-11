@@ -39,6 +39,12 @@ React源码通过isBatchingUpdates 判断，true存进 state 队列，false 直�
 初始化时，JSX建立虚拟 DOM 和 真实 DOM 映射关系。虚拟 DOM变化后，根据差距生成patch，根据patch 增加，更新，移除真实 DOM。
 
 遍历算法是深度优先遍历，二叉树的前序遍历
+
+1. 不同类型的标签会销毁，新建树
+
+2. 同一类型，className或者 style 属性改变时，只更新改变的属性。所以shouldComponentUpdate、PureComponent 及 React.memo 可以提高性能。
+
+3. 同一层级的子节点，通过key标记。所以key尽量不要用组件下标，因素元素重新排序的话相当于没有用key。
 #### 4. React Hook
 函数式编程，生命周期概念淡出，相比类组件更轻量。
 #### 5. Component 和 Element：
