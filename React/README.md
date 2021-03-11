@@ -36,7 +36,9 @@ React源码通过isBatchingUpdates 判断，true存进 state 队列，false 直�
 2.启用并发更新
 #### 3. virtual DOM 更新规则
 
-初始化时，JSX建立虚拟 DOM 和 真实 DOM 映射关系。虚拟 DOM变化后，根据差距生成patch，根据patch 增加，更新，移除真实 DOM
+初始化时，JSX建立虚拟 DOM 和 真实 DOM 映射关系。虚拟 DOM变化后，根据差距生成patch，根据patch 增加，更新，移除真实 DOM。
+
+遍历算法是深度优先遍历，二叉树的前序遍历
 #### 4. React Hook
 函数式编程，生命周期概念淡出，相比类组件更轻量。
 #### 5. Component 和 Element：
