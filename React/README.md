@@ -15,7 +15,7 @@ getDerivedStateFromProps
 
 shouldComponentUpdate：通过state 和 props 浅比较可以阻止渲染。
 
-render
+render：state变化 或 父组件props传入（无论有没有变化）
 
 getSnapshotBeforeUpdate(prevProps, prevState)：DOM更新前调用，返回值作为componentDidUpdate第三个参数。
 
