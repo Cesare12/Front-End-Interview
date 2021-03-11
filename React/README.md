@@ -29,7 +29,10 @@ componentWillUnmount：取消定时器
 ##### 1.5错误边界
 错误边界是一种 React 组件，class ErrorBoundary extends React.Component，React渲染出错时，渲染备用组件。
 #### 2. setState
+React源码通过isBatchingUpdates 判断，true存进 state 队列，false 直接更新。
+1.保持内部一致性。state 和 props
 
+2.启用并发更新
 #### 3. virtual DOM 更新规则
 #### 4. React Hook
 函数式编程，生命周期概念淡出，相比类组件更轻量。
