@@ -50,5 +50,5 @@ React源码通过isBatchingUpdates 判断，true存进 state 队列，false 直�
 #### 5. Component 和 Element：
 
 没有JSX时，使用React.createElement创建标签，使用JSX时可以extends React.Component，然后render返回Element
-<p></p>
+
 #### 6. Redux
