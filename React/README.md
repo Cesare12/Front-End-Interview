@@ -47,6 +47,12 @@ React源码通过isBatchingUpdates 判断，true存进 state 队列，false 直�
 3. 同一层级的子节点，通过key标记。所以key尽量不要用组件下标，因素元素重新排序的话相当于没有用key。
 #### 4. React Hook
 函数式编程，生命周期概念淡出，相比类组件更轻量。
+
+Hooks 只支持函数组件.
+
+1. 不要在循环、条件或嵌套函数中调用 Hook；
+
+2. 在 React 的函数组件中调用 Hook。
 #### 5. Component 和 Element：
 
 没有JSX时，使用React.createElement创建标签，使用JSX时可以extends React.Component，然后render返回Element
