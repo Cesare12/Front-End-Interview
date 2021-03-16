@@ -78,6 +78,26 @@ function parse(url) {
     }, {})
     return queryObj
 }
+// // {}
+// 'https://shanyue.tech' 
+
+// // {a: ''}
+// 'https://shanyue.tech?a' 
+
+// // {name: '山月'}
+// 'https://shanyue.tech?name=%E5%B1%B1%E6%9C%88'    
+
+// // {name: '山月', a: 3}                
+// 'https://shanyue.tech?name=%E5%B1%B1%E6%9C%88&a=3'            
+
+// // {name: '山月', a: [3, 4]}
+// 'https://shanyue.tech?name=%E5%B1%B1%E6%9C%88&a=3&a=4'   
+
+// // {name: '山月', a: 3}
+// 'https://shanyue.tech?name=%E5%B1%B1%E6%9C%88&a=3#hash' 
+
+// // {name: '1+1=2'}
+// 'https://shanyue.tech?name=1%2B1%3D2' 
 ```
 4. Promise
 
